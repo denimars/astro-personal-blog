@@ -1,0 +1,13 @@
+---
+interface Props {
+}
+
+
+const menu = ["Home", "Article"]
+---
+
+<div class="bg-white py-2 px-24  gap-3 justify-end rounded-b-lg md:flex hidden">
+    {menu.map((title)=>(
+        <div>{title}</div>
+    ))}
+</div>
